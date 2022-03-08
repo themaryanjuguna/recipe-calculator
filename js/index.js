@@ -5,7 +5,7 @@ btn.addEventListener('click', function(){
     let costperkg = document.getElementById('premixcpk').value;
  
     
-    let recipecost = document.getElementById('').value = premixcost*1000/costperkg;
+    let recipecost = document.getElementById('premixrc').value = premixcost/costperkg;
     document.getElementById('').value = parseFloat(premixcost) * parseFloat(recipecost)
 }
 )

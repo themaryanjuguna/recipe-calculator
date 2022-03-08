@@ -40,8 +40,9 @@ if(isset($_SESSION['username'])){
 
         <h3 class="display-4 fw-5 text-center">You only need Egg and Water For your Sponge Cake</h3>
         <p class="lead mb-4 text-center">
-            Sponge Premixes - Super soft & moist - perfect for layered cakes.Produced to   accomodate different types of fillings not only for your standard forest cakes, but also to allow endeless creative possiblities of layer combinations. 
-            <blockquote class="blockquote text-center">Just add egg and water</blockquote>
+            Sponge Premixes - Super soft & moist - perfect for layered cakes.Produced to accomodate different types of fillings not only 
+            for your standard forest cakes, but also to allow endeless creative possiblities of layer combinations. 
+            <blockquote class="blockquote text-center">Just add egg and water. 250g of mix makes 500g of batter that</blockquote>
         </p>
             <form class="p-4 p-md-5 border rounded-3 row-cols-4 bg-light">                
               <div class="form-floating mb-3 form-check form-check-inline col-md-3">
@@ -52,31 +53,33 @@ if(isset($_SESSION['username'])){
                 <input type="text" class="form-control" id="premixcpk" placeholder="Cost per Kg">
                 <label for="floatingPassword"></label>
               </div>
+                         
+              <div class="form-floating mb-3 form-check form-check-inline col-md-2">
+              <button class="w-100 btn btn-lg btn-primary" id="button" type="submit">Sum</button>
+              </div>
+
               <div class="form-floating mb-3 form-check form-check-inline col-md-3">
                 <input type="text" class="form-control" id="premixrc" placeholder="Recipe cost">
                 <label for="floatingPassword"></label>
               </div>
-            
-              <div class="form-floating mb-3 form-check form-check-inline col-md-2">
-              <button class="w-100 btn btn-lg btn-primary" type="submit">Sum</button>
-              </div>
               <hr>
-    
+          <!--egg cost-->
               <div class="form-floating mb-3 form-check form-check-inline col-md-3">
-                <input type="text" class="form-control" id="eggs" placeholder="Premix (250g Standard Recipe">
+                <input type="text" class="form-control" id="eggs" placeholder="eggs">
                 <label for="floatingInput"></label>
               </div>
               <div class="form-floating mb-3 form-check form-check-inline col-md-3">
                 <input type="text" class="form-control" id="eggscpk" placeholder="Cost per Kg">
                 <label for="floatingPassword"></label>
               </div>
+              <div class="form-floating mb-3 form-check form-check-inline col-md-2">
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Sum</button>
+              </div>
               <div class="form-floating mb-3 form-check form-check-inline col-md-3">
                 <input type="text" class="form-control" id="eggsrc" placeholder="Recipe cost">
                 <label for="floatingPassword"></label>
               </div>
-              <div class="form-floating mb-3 form-check form-check-inline col-md-2">
-              <button class="w-100 btn btn-lg btn-primary" type="submit">Sum</button>
-              </div>
+
             </form>
           </div>
         </div>
