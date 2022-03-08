@@ -1,4 +1,4 @@
-# Batter calculator
+# Batter Cost Calculator
 
 ## Description
 As a raw ingredient supplier we would like to educate my clients on the importance of recipe calculation for them to see how much they save while using my ingredients while they have a bigger profit margin. So, it’s a win-win situation for us both
