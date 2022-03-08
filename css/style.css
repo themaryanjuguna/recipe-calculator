@@ -1,0 +1,24 @@
+
+
+#text{
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin #aaa;
+    width: 90%;
+}
+
+#button{
+    padding: 10px;
+    width: 100px;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: none;
+}
+
+#box{
+    background-color: bisque;
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+} 
